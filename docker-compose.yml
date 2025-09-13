@@ -5,7 +5,7 @@ services:
     build: .
     container_name: node-app
     ports:
-      - "2000:3000"   # map host 
+      - "3000:3000"   # map host 
     environment:
       NODE_ENV: production
     restart: unless-stopped
